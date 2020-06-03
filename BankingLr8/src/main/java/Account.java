@@ -16,12 +16,12 @@ public class Account {
     }
 
 
-    //метод для зняття грошей
+    
     public synchronized void withdraw(BigDecimal amount) {
         this.balance = this.balance.subtract(amount);
     }
 
-    //метод для поповнення рахунку
+    
     public synchronized void deposite(BigDecimal amount) {
         this.balance = this.balance.add(amount);
     }
