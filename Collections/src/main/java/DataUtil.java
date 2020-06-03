@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class DataUtil {
 
 
-    public static List<String> getLinesFromFile(File file) { //зчитує дані з текстового файлу
+    public static List<String> getLinesFromFile(File file) { 
 
 
         List<String> lines = Collections.emptyList();
@@ -36,7 +36,7 @@ public class DataUtil {
             }
         }
 
-          FileWriter writer = null; //призываю врайтер (методы с текстовыми файлом)
+          FileWriter writer = null; 
           try {
               writer = new FileWriter(file);
 
